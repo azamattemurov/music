@@ -109,8 +109,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'  # Statik fayllar URL'iga yo'l
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Loyihadagi statik fayllar papkasi
+    os.path.join(BASE_DIR, 'static'),  # static fayllar papkasi
 ]
+  # Loyihadagi statik fayllar papkasi
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Statik fayllar serverga uzatiladigan papka
 
 
